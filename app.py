@@ -111,7 +111,7 @@ with tab3:
                         try:
                             decrypted_text = decrypt_text(encrypted_text)
                             st.success("Data retrieved successfully!")
-                            st.write("Retrieved")
+                            st.write("Retrieved Data:")
                             st.info(decrypted_text)
                             st.session_state["failed_attempts"] = 0
                             break
